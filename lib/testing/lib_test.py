@@ -9,7 +9,7 @@ class TestNameError:
 
     def test_name_error(self):
         '''
-        contains defined name "hello_world"
+        contains defined name "hello world"
         '''
 
         runpy.run_path('lib/a_name_error.py')
